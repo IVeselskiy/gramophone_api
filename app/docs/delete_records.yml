@@ -1,0 +1,6 @@
+
+tags:
+  - records
+responses:
+  200:
+    description: All records deleted.

@@ -1,0 +1,23 @@
+
+tags:
+  - records
+parameters:
+  - in: query
+    name: id
+    schema:
+      type: integer
+    description: The id of the record
+  - in: query
+    name: user
+    schema:
+      type: integer
+    description: The id of the user who added the record
+responses:
+  200:
+    description: Records data
+    schema:
+      type: array
+      items:
+        $ref: '#/definitions/Record'
+  201:
+    description: Record downloaded

@@ -1,0 +1,6 @@
+
+tags:
+  - users
+responses:
+  200:
+    description: All users deleted.

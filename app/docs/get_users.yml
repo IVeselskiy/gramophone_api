@@ -1,0 +1,10 @@
+
+tags:
+  - users
+responses:
+  200:
+    description: Users data
+    schema:
+      type: array
+      items:
+        $ref: '#/definitions/User'

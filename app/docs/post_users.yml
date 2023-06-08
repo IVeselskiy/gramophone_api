@@ -1,0 +1,14 @@
+
+tags:
+  - users
+parameters:
+  - in: body
+    name: new user username
+    schema:
+      $ref: '#/definitions/User'
+
+responses:
+  201:
+    description: Username have been added
+    schema:
+      $ref: '#/definitions/User'

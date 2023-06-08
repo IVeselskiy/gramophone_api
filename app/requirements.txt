@@ -1,0 +1,12 @@
+Flask~=2.3.2
+SQLAlchemy~=2.0.15
+WTForms~=3.0.1
+requests~=2.31.0
+apispec~=6.3.0
+flasgger~=0.9.7.1
+marshmallow~=3.19.0
+pydub~=0.25.1
+apispec-webframeworks~=0.5.2
+Flask-RESTful~=0.3.10
+psycopg2-binary~=2.9.6
+ffmpeg

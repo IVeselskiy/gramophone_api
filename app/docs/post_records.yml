@@ -1,0 +1,14 @@
+
+tags:
+  - records
+parameters:
+  - in: body
+    name: new record
+    schema:
+      $ref: '#/definitions/Record'
+
+responses:
+  201:
+    description: Record have been added
+    schema:
+      $ref: '#/definitions/Record'
